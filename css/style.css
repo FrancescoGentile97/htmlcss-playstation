@@ -11,3 +11,15 @@
 .padding-small {
     padding: 0.5rem
 }
+
+.takes-two {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-black {
+    background-color: rgb(31	31	31);
+}
+
+/* Cambiare la classe rounded e dare un pò piu di border-radius */
