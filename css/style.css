@@ -24,4 +24,8 @@
     background-color: rgb(31	31	31);
 }
 
+.bg-light-grey {
+    background-color: rgb(190	188	187);
+}
+
 /* Cambiare la classe rounded e dare un pò piu di border-radius */
