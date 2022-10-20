@@ -2,6 +2,7 @@
     background-image: url(../img/jumbo-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .padding-top-jumbo {
@@ -16,6 +17,7 @@
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .bg-black {
