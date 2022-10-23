@@ -1,3 +1,64 @@
+header {
+    position: sticky;
+    right: 0;
+    left: 0;
+    z-index: 20;
+    top: -26px;
+}
+
+header li:hover .my-chevron img {
+    display: none;
+}
+
+header li:hover .my-chevron img.d-none {
+    display: inline-block !important;
+}
+
+.btn-accedi {
+    border-radius: 20px;
+    background-color: rgb(54 54 54);
+    color: white;
+}
+
+.blue-line {
+    background-color: blue;
+    width: 120px;
+    height: 4px;
+    display: none;
+}
+
+.card-jumbotron .card-img:hover {
+    border: 3px solid blue;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.info-section .card-img:hover 
+.blue-line {
+    display: block !important;  
+}
+
+.top-nav {
+    background-color: black;
+    height: 25px;
+}
+
+.top-nav-logo {
+    height: 16px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+}
+
+.nav-item {
+    display: flex;
+}
+
+.my-chevron {
+    width: 12px;
+    margin-right: 4px;
+    align-self: center;
+}
+
 .jumbotron {
     background-image: url(../img/jumbo-bg.png);
     background-repeat: no-repeat;
@@ -21,17 +82,45 @@
 }
 
 .bg-black {
-    background-color: rgb(31	31	31);
+    background-color: rgb(31 31 31);
 }
 
 .bg-light-grey {
-    background-color: rgb(190	188	187);
+    background-color: rgb(190 188 187);
 }
 
 .bg-ps-now {
-    background-color: rgb(23	28	57);
+    background-color: rgb(23 28 57);
+}
+
+.footer-bg {
+    background-color: rgb(25 66 150);
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.img-footer {
+    width: 100px;
+}
+
+.small-text {
+    font-size: 12px
 }
 
 /* Cambiare la classe rounded "Round-1-2 ecc.." e dare un pò piu di border-radius */
 /* Sistemare e rendere unici i vari "button" nelle section */
 /* Per l'immagine di "It take two" creare una media query per sm-xs dove applicare da bootstrap "W-50" */
+
+/******************** Media query **********************/
+
+@media screen and (min-width:768px) {}
+
+@media screen and (min-width:992px) {}
+
+@media screen and (min-width:1200px) {}
+
+@media screen and (min-width:1400px) {}
